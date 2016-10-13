@@ -1,0 +1,198 @@
+﻿@font-face {
+	font-family: MyriadPro;
+	src: url(fonts/MyriadPro-Regular.otf)
+}
+body{
+	margin: 0;
+}
+.inner{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.header {
+	height: 1075px;
+	background-image: url(images/man.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-family: 'Verdana';
+	color: white;
+	overflow: hidden;
+}
+.header h1 {
+	font-size: 54px;
+	font-weight: normal;
+}
+.header p {
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 24px;
+	margin-bottom: 275px;
+}
+.header .inner{
+	padding: 0px 100px;
+	width: 640px;
+	margin-top: 285px;
+}
+.about {
+	background: white;
+	height: 630px;
+}
+.about .inner{
+	
+	margin-top: 145px;
+}
+legend{
+	font-family: MyriadPro;
+	font-size: 34px;
+	color: #3c3c3c;
+	text-transform: uppercase;
+	padding: 0 115px;
+}
+.services legend{
+	color: white;
+}
+.services fieldset{
+	border-color: white;
+}
+.about p {
+	font-size: 16px;
+	line-height: 25px;
+	font-family: 'Verdana';
+	margin: 0 180px;
+	color: #3c3c3c;
+}
+.services {
+	background-image: url(images/design.png);
+	height: 488px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	overflow: hidden;
+}
+.services .inner{
+	margin-top: 114px;
+}
+.services p {
+	font-size: 16px;
+	line-height: 25px;
+	font-family: 'Verdana';
+	margin: 0 175px;
+}	
+.content {
+	background: white;
+	height: 1415px;
+}
+.content .inner{
+	margin-top: 105px;
+}
+.content p {
+	font-size: 16px;
+	line-height: 25px;
+	font-family: 'Verdana';
+	margin: 0 180px;
+	color: #3c3c3c;
+}
+.content h2 {
+	font-size: 20px;
+	font-family: 'Verdana';
+	color: #3c3c3c;
+	font-weight: bold;
+}
+.content img {
+	margin-top: 105px;
+}
+.content fieldset {
+	padding-bottom: 87px;
+}
+.row{
+	overflow: hidden;
+	margin-bottom: 10px;
+
+}
+.row a {
+	text-decoration:none;
+	color: white;
+}
+.small, .big {
+	float: left;
+	height: 67px;
+	color: white;
+	font-family: 'Verdana';
+	font-size: 34px;
+	padding: 170px 0 0 2%;
+}
+.small {
+	width: 26%;
+	background-color: grey;
+}
+.big {
+	width: 40%;
+	background-color: lightgrey;
+	margin: 0 1%;
+}
+.topworks {
+	background-image: url(images/topworks.png);
+}
+.joint {
+	background-image: url(images/joint.png);
+}
+.market {
+	background-image: url(images/market.png);
+}
+.worktop {
+	background-image: url(images/worktop.png);
+}
+.lable {
+	background-image: url(images/lable.png);
+}
+.kyiv {
+	background-image: url(images/kyiv.png);
+}
+.contacts {
+	margin-top: 132px;
+}
+.contacts p {
+	font-size: 16px;
+	line-height: 25px;
+	font-family: 'Verdana';
+	margin: 55px 185px 17px 185px;
+	color: #3c3c3c;
+}
+.contacts a {
+	background-color: #3c3c3c;
+    color: white;
+    padding: 22px 135px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 16px;
+	font-family: 'Verdana';
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 48px;
+}
+.footer{
+	font-family: 'Verdana';
+	color: #3c3c3c;
+	font-size: 14px;
+}
+.col1 {
+	float: left;
+	margin-left: 300px;
+	margin-top: 63px;
+	margin-bottom: 65px;
+}
+.col2 {
+	float: left;
+	margin-left: 37px;
+	margin-top: 77px;
+	margin-bottom: 74px;
+}
+.col2 a {
+	text-decoration: none;
+	color: #3c3c3c;
+}
